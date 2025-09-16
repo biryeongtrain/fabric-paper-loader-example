@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "test_mod",
+  "version": "${version}",
+  "mixins": [
+    "exampleMod.mixins.json"
+  ],
+  "accessWidener" : "exampleMod.accesswidener"
+}

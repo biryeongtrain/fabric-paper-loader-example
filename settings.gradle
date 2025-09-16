@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        maven {
+            url = "https://maven.playmonumenta.com/releases/"
+        }
+        maven {
+            url = "https://repo.papermc.io/repository/maven-public/"
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'fabric-paper-example'
