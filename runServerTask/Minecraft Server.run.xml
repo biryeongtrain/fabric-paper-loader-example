@@ -1,14 +1,15 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Minecraft Server" type="Application" factoryName="Application">
-    <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+    <option name="ALTERNATIVE_JRE_PATH" value="jbr-21" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <envs>
       <env name="IS_DEVENV" value="1" />
     </envs>
     <option name="MAIN_CLASS_NAME" value="com.floweytf.fabricpaperloader.Main" />
+    <module name="fabric-paper-example.main" />
     <option name="PROGRAM_PARAMETERS" value="-nogui" />
     <option name="VM_PARAMETERS" value="-Dfabric.development=true -Dmixin.debug.export=true -Dfabric.classPathGroups=$PROJECT_DIR$/build/classes/java/main:$PROJECT_DIR$/build/resources/main" />
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run/" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
