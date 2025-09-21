@@ -27,7 +27,7 @@ tasks {
     }
 
     reobfJar {
-        accessWideners.add("monumenta.accesswidener")
+        accessWideners.add("exampleMod.accesswidener")
     }
 
     shadowJar {
