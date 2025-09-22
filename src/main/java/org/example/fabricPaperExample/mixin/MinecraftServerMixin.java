@@ -8,8 +8,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(MinecraftServer.class)
 public class MinecraftServerMixin {
-    @Inject(method = "<clinit>", at = @At("HEAD"))
-    private static void init(CallbackInfo ci) {
-        System.out.println("Hello Fabric!");
-    }
+	@Inject(method = "<clinit>", at = @At("HEAD"))
+	private static void init(CallbackInfo ci) {
+		System.out.println("Hello Fabric!");
+	}
 }

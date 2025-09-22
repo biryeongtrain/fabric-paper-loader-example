@@ -8,7 +8,7 @@ nbtapi = "2.12.4"
 
 gradle-spotless = "6.25.0"
 gradle-paperweight = "2.0.0-build.5+2.0.0-beta.18"
-gradle-shadow = "8.1.1"
+gradle-shadow = "9.1.0"
 
 [libraries]
 fabric-loader = { module = "com.floweytf.fabricpaperloader:fabric-paper-loader", version.ref = "fabric-loader" }
@@ -19,7 +19,7 @@ nbtapi-plugin = { module = "de.tr7zw:item-nbt-api-plugin", version.ref = "nbtapi
 
 gradle-spotless = { module = "com.diffplug.spotless:spotless-plugin-gradle", version.ref = "gradle-spotless" }
 gradle-paperweight = { module = "com.playmonumenta.paperweight-aw:paperweight-userdev", version.ref = "gradle-paperweight" }
-gradle-shadow = { module = "com.github.johnrengelman:shadow", version.ref = "gradle-shadow" }
+gradle-shadow = { module = "com.gradleup.shadow:shadow-gradle-plugin", version.ref = "gradle-shadow" }
 
 [bundles]
 gradle = ["gradle-paperweight", "gradle-shadow", "gradle-spotless"]
