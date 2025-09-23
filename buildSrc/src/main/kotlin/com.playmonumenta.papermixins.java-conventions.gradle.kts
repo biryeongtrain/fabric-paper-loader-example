@@ -56,8 +56,8 @@ publishing {
         maven {
             name = "MonumentaMaven"
             url = when (version.toString().endsWith("SNAPSHOT")) {
-                true -> uri("https://maven.playmonumenta.com/snapshots")
-                false -> uri("https://maven.playmonumenta.com/releases")
+                true -> uri("YOUR_SNAPSHOT_REPOSITORY")
+                false -> uri("YOUR_RELEASE_REPOSITORY")
             }
 
             credentials {
